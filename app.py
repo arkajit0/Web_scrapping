@@ -3,7 +3,7 @@ from flask import Flask, render_template, request,jsonify
 import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
-import pymongo
+# import pymongo
 
 app = Flask(__name__)
 
